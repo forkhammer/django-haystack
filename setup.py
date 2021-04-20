@@ -68,5 +68,5 @@ setup(
     install_requires=install_requires,
     tests_require=tests_require,
     test_suite="test_haystack.run_tests.run_all",
-    setup_requires=['setuptools_scm'],
+    setup_requires=['setuptools_scm==3.1.0'],
 )
